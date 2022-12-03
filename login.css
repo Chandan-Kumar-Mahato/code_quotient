@@ -1,0 +1,96 @@
+header {
+    text-align: center;
+    box-shadow: 0.00001px 0.3px 0.002px black;
+    padding: 9px;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 117, 24);
+    font-size: 11px;
+}
+
+body main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 4px;
+    font-weight: lighter;
+}
+
+.main {
+    height: 350px;
+    width: 800px;
+    border-radius: 3px;
+    box-shadow: 0.4px 0.4px 2px black;
+
+}
+
+
+input[type=text] {
+    width: 550px;
+    outline-color: #bc6c25;
+    background-color: aliceblue;
+    padding: 6px;
+    border-color: none;
+
+}
+
+input[type=password] {
+    width: 550px;
+    outline-color: #bc6c25;
+    padding: 6px;
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    margin: 30px;
+    color: rgba(255, 117, 24);
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.sign {
+    background-color: rgba(255, 117, 24);
+    font-size: 12px;
+    font-family: Arial;
+    padding: 9px 47px;
+    color: white;
+    border-radius: 4px;
+}
+
+#text {
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.div-2 {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.checkbox {
+    display: flex;
+    padding: 20px;
+    margin-left: 95px;
+    justify-content: flex-start;
+
+}
+
+#admin {
+    margin-left: 20px;
+}
+
+.sign:hover {
+    text-decoration: none;
+    background-color: #bc6c25;
+}
